@@ -1,22 +1,16 @@
-import './App.css'
-
 function App() {
 
   return (
     <>
+    <head>
+      <title>Mario Hernandez</title>
+    </head>
+    <body>
       <h1>Mario Hernandez</h1>
-      <h2>Software Engineer</h2>
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+      <p>
+        Software engineer, based in New York city.
+      </p>
+    </body>
     </>
   )
 }
